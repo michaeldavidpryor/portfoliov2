@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
 
 export default function Home({ allPostsData }) {
   return (
@@ -11,11 +11,19 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        <p class="lead">
+          My name is Michael and I am a classically trained chef that has taken the leap in to web
+          development.{" "}
+        </p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          I have managed teams in high pressure environments and I wish to bridge these skills with
+          my new ones.
+        </p>
+        <p>
+          Thank you for your time and consideration. Here you will find the start of a successful
+          career in web development.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -35,14 +43,14 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
     </Layout>
-  )
+  );
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
-    }
-  }
+      allPostsData,
+    },
+  };
 }
