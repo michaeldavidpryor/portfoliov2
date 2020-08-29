@@ -16,6 +16,12 @@ const NavBar = (props) => {
         <Link href="/projects" passHref>
           <NavLink>Projects</NavLink>
         </Link>
+        <Link href="/blog" passHref>
+          <NavLink>Blog</NavLink>
+        </Link>
+        <Link href="/pastlife" passHref>
+          <NavLink>Past Life</NavLink>
+        </Link>
       </Nav>
     </div>
   );

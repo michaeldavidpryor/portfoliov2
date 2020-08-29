@@ -5,7 +5,7 @@ import Link from "next/link";
 import NavBar from "./navbar";
 
 const name = "Michael Pryor";
-export const siteTitle = "";
+export const siteTitle = "Portfolio";
 
 export default function Layout({ children, home }) {
   return (
