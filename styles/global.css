@@ -8,6 +8,7 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: ghostwhite;
 }
 
 * {
@@ -15,19 +16,18 @@ body {
 }
 
 a {
-  color: darkkhaki;
+  color: black;
   text-decoration: solid;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 img {
   max-width: 100%;
   display: block;
   height: auto;
-  padding-top: 5px;
+}
+#me {
+  border-style: solid;
+  border-color: black;
 }
 
 .container-fluid {
@@ -36,4 +36,10 @@ img {
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+.card-group {
+  padding-top: 200px;
+}
+.row {
+  padding-top: 200px;
 }
