@@ -1,28 +1,54 @@
-import React from "react";
-import { Nav, NavLink } from "reactstrap";
-
+import React, { useState } from "react";
+import {
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  NavbarText,
+  Collapse,
+} from "reactstrap";
 import Link from "next/link";
 
 const NavBar = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
   return (
     <div>
-      <Nav>
+      <Navbar color="light" light expand="md">
         <Link href="/" passHref>
-          <NavLink>Home</NavLink>
+          <NavbarBrand>Home</NavbarBrand>
         </Link>
-        <Link href="/contact" passHref>
-          <NavLink>Contact</NavLink>
-        </Link>
-        <Link href="/projects" passHref>
-          <NavLink>Projects</NavLink>
-        </Link>
-        <Link href="/blog" passHref>
-          <NavLink>Blog</NavLink>
-        </Link>
-        <Link href="/pastlife" passHref>
-          <NavLink>Past Life</NavLink>
-        </Link>
-      </Nav>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+              <Link href="/contact" passHref>
+                <NavLink>Contact</NavLink>
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link href="/projects" passHref>
+                <NavLink>Projects</NavLink>
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link href="/blog" passHref>
+                <NavLink>Blog</NavLink>
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link href="/pastlife" passHref>
+                <NavLink>Past Life</NavLink>
+              </Link>
+            </NavItem>
+          </Nav>
+          <NavbarText>Simple Text</NavbarText>
+        </Collapse>
+      </Navbar>
     </div>
   );
 };

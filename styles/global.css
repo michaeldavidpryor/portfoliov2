@@ -15,8 +15,8 @@ body {
 }
 
 a {
-  color: #0070f3;
-  text-decoration: none;
+  color: darkkhaki;
+  text-decoration: solid;
 }
 
 a:hover {
@@ -26,4 +26,14 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
+  padding-top: 5px;
+}
+
+.container-fluid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
