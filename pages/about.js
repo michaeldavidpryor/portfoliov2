@@ -16,7 +16,7 @@ export default function About() {
           <CardImg top width="100%" src="\images\fishy.png" alt="Card image cap" />
           <CardBody>
             <CardTitle>
-              <h4>Hard Choices</h4>
+              <h4>Quality</h4>
             </CardTitle>
             <CardSubtitle></CardSubtitle>
             <CardText>
@@ -27,8 +27,9 @@ export default function About() {
                 farmers I know and trusted.{" "}
               </p>{" "}
               <p>
-                People want meat, especially in North Carolina and a significant part of my career
-                change stemmed from not wanting to cause anymore harm towards life.
+                It all starts with the quality of what you start with. Sourcing from 8 different
+                farms is much harder than getting everything from one source. If it were easy,
+                everyone would do it.
               </p>
             </CardText>
           </CardBody>
