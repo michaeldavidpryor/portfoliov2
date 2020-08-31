@@ -25,7 +25,7 @@ export default function Projects() {
         </Card>
         <Card>
           <a href="https://michaeldavidpryor.github.io/HomeMade/">
-            <CardImg top width="100%" src="/images/LOGO .jpg" alt="Card image cap" />
+            <CardImg top width="100%" src="/images/LOGO.jpg" alt="Card image cap" />
           </a>
           <CardBody>
             <CardTitle>Card title</CardTitle>
