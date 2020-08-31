@@ -14,7 +14,7 @@ export default function Layout({ children }) {
 
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Learn how to build a personal website using Next.js" />
+        <meta name="description" content="Michael Pryor Portfolio" />
         <meta
           content={`https://og-image.now.sh/${encodeURI(
             siteTitle
