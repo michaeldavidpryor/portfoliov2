@@ -1,17 +1,7 @@
 import Head from "next/head";
 import { siteTitle } from "../components/layout";
 import NavBar from "../components/navbar";
-import {
-  Container,
-  Card,
-  Button,
-  CardImg,
-  CardTitle,
-  CardText,
-  CardGroup,
-  CardSubtitle,
-  CardBody,
-} from "reactstrap";
+import { Card, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody } from "reactstrap";
 
 export default function About() {
   return (

@@ -4,15 +4,15 @@ import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
 
       <section className={utilStyles.headingMd}>
+        <p className="lead">Thank you for your time and consideration.</p>{" "}
         <p className="lead">
-          Thank you for your time and consideration. Here you will find the start of a successful
-          career in web development.
+          Here you will find the start of a successful career in web development.
         </p>
       </section>
     </Layout>

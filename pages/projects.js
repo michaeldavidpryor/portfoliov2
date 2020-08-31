@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { siteTitle } from "../components/layout";
 import NavBar from "../components/navbar";
+import { Card, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody } from "reactstrap";
 
 export default function Projects() {
   return (
@@ -8,45 +9,45 @@ export default function Projects() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <NavBar />
-
-      <div class="container">
-        <div class="row align-items-start">
-          <div class="col">
-            <a href="https://www.etsy.com/shop/PryorMechanical" target="_blank">
-              {" "}
-              <img
-                src="/images/200px-Etsy_logo.jpg"
-                title="Michael Pryor Etsy Shop"
-                img
-                class="img-fluid"
-                alt="Etsy Icon"
-              ></img>
-            </a>
-
-            <a href="https://michaeldavidpryor.github.io/HomeMade/" target="_blank">
-              {" "}
-              <img
-                src="/images/LOGO.JPG"
-                title="Homemade Project Page Github Page"
-                img
-                class="img-fluid"
-                alt="Homemade logo"
-              ></img>
-            </a>
-            <a href="https://giphtionary-learning-on-loop.herokuapp.com/" target="_blank">
-              {" "}
-              <img
-                src="/images\giphtionary_logo.gif"
-                title="Giphtionary"
-                img
-                class="img-fluid"
-                alt="Giphtionary"
-              ></img>
-            </a>
-          </div>
-        </div>
-      </div>
+      <NavBar />{" "}
+      <CardGroup>
+        <Card>
+          <a href="https://giphtionary-learning-on-loop.herokuapp.com/">
+            <CardImg top width="100%" src="/images/giphtionary_logo.png" alt="Card image cap" />
+          </a>
+          <CardBody>
+            <CardTitle>Card title</CardTitle>
+            <CardText>
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </CardText>
+          </CardBody>
+        </Card>
+        <Card>
+          <a href="https://michaeldavidpryor.github.io/HomeMade/">
+            <CardImg top width="100%" src="/images/LOGO .jpg" alt="Card image cap" />
+          </a>
+          <CardBody>
+            <CardTitle>Card title</CardTitle>
+            <CardText>
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </CardText>
+          </CardBody>
+        </Card>
+        <Card>
+          <a href="https://www.etsy.com/shop/PryorMechanical">
+            <CardImg top width="100%" src="/images/PMLogo.png" alt="Card image cap" />
+          </a>
+          <CardBody>
+            <CardTitle>Card title</CardTitle>
+            <CardText>
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </CardText>
+          </CardBody>
+        </Card>
+      </CardGroup>
     </>
   );
 }
