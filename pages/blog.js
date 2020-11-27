@@ -5,6 +5,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import NavBar from "../components/navbar";
+import { Container } from "reactstrap";
 
 export default function Blog({ allPostsData }) {
   return (
@@ -13,6 +14,9 @@ export default function Blog({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <NavBar />
+      <Container>
+        <img src="/images/pepper.jpg"></img>
+      </Container>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Capsaicin Hurts Blog</h2>
         <ul className={utilStyles.list}>

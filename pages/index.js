@@ -10,9 +10,11 @@ export default function Home() {
       </Head>
 
       <section className={utilStyles.headingMd}>
-        <p className="lead">Thank you for your time and consideration.</p>{" "}
+        <p className="lead">Thank you for your time and consideration.</p>
+
         <p className="lead">
-          Here you will find the start of a successful career in web development.
+          The question I always ask myself, "How does this work?" has lead me to pursue my passion
+          of web and software development
         </p>
       </section>
     </Layout>

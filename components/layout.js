@@ -25,13 +25,13 @@ export default function Layout({ children }) {
 
         <Col>
           <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          <main>{children}</main>
           <a href="https://github.com/michaeldavidpryor">
             <img src="/images/github.png" id="github" alt="image" />
           </a>
           <a href="https://www.linkedin.com/in/mdpryor">
             <img src="/images/linkedin2.png" id="linkedin" alt="image" />
           </a>
+          <main>{children}</main>
         </Col>
         <Col></Col>
         <Col></Col>

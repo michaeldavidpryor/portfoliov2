@@ -38,7 +38,7 @@ img {
   transform: translate(-50%, -50%);
 }
 .card-group {
-  padding-top: 200px;
+  padding-top: 125px;
 }
 .row {
   padding-top: 150px;
@@ -47,8 +47,10 @@ img {
 #linkedin {
   display: inline;
   padding-right: 15px;
+  padding-bottom: 15px;
 }
 #github {
   display: inline;
   padding-right: 15px;
+  padding-bottom: 15px;
 }

@@ -1,5 +1,5 @@
 ---
-title: "Presentation Matters"
+title: "GRIT"
 date: "2020-08-31"
 ---
 
@@ -10,8 +10,6 @@ The more I thought about it, the more confident I became in creating a clear pic
 Here's excerpt 1 where the GRIT developed early in my career will help me stand out when interviewing for my new career as a developer.
 
 ---
-
-### Grit
 
 As a fresh graduate of the Culinary Institute of America, I came out pretty confident. I was often one of the strongest cooks in my class and picked up on things quickly. I could cook traditional french cuisine well. I'm all set!
 
