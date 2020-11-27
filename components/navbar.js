@@ -41,11 +41,7 @@ const NavBar = (props) => {
               </Link>
             </NavItem>
             <NavItem>
-<<<<<<< HEAD
               <NavLink href="https://drive.google.com/file/d/1xoie97r_hoq8XLITC0PVMKHv5MSywMqf/view?usp=sharing">
-=======
-              <NavLink href="https://drive.google.com/file/d/1CXN8D8JBZluzedDG7rQ_daAnyvUfn2q6/view?usp=sharing">
->>>>>>> bb5bbd5dd4ea597be6f25a1c2051da61ab3bf87e
                 Résumé
               </NavLink>
             </NavItem>
